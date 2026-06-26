@@ -1,0 +1,83 @@
+*{margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+       font-family: 'Arial', sans-serif;
+       
+    }
+body{
+    background: olive green;
+    margin-0;
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1.6;
+}
+ 
+ header{
+    background: white;
+    color: hsl(36, 73%, 55%);
+    padding: 40px;
+    text-align: center;
+ }
+    section{
+        padding: 40px 80px;
+    }
+
+  .about{
+    padding: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+  }
+  .about img{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+  }  
+    .skills,
+    .education, 
+    .projects,
+    .resume,
+    .contact{
+        padding: 40px;
+    }
+    .skills li{
+    background:brown;
+    color:black;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+   .card{
+    background:grey;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+   } 
+
+   .resume a{
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: olive green;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+   }
+
+   .education li{
+     background:white;
+    color:black;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+   }
+    
+   footer{
+    background: #333333;
+    color: hsl(318, 52%, 37%);
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+   }
